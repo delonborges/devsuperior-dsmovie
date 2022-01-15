@@ -4,8 +4,7 @@ import Form from "pages/Form";
 import Navbar from "components/Navbar";
 
 function App() {
-    return (
-        <BrowserRouter>
+    return (<BrowserRouter>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Listing/>}/>
@@ -13,8 +12,7 @@ function App() {
                     <Route path=":movieId" element={<Form/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
-    );
+        </BrowserRouter>);
 }
 
 export default App;
