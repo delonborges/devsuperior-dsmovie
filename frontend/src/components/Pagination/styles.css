@@ -21,7 +21,7 @@
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #a3a3a3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 }
 
 .dsmovie-pagination-button svg {
-    filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(28%) sepia(80%) saturate(6172%) hue-rotate(16deg) brightness(92%) contrast(101%);
 }
 
 .dsmovie-pagination-button:disabled {
