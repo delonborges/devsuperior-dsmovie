@@ -55,6 +55,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'dsmovie'
-          slot-name: 'Backend'
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD46D52DA66F4D2A94048F5AF50B3D09 }}
           package: '*.jar'
