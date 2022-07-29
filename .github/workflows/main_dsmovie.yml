@@ -32,6 +32,10 @@ jobs:
         with:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
+          
+    env:
+        APP_PROFILE: ${{ secrets.APP_PROFILE }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
   deploy:
     runs-on: ubuntu-latest
