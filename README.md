@@ -1,5 +1,5 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) DevSuperior
->  *Criação de um aplicativo para avaliação de filmes*
+>  *Aplicativo web para avaliação de filmes*
 
 ## Projeto DSMovie - Semana Spring React
 
