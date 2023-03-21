@@ -28,6 +28,9 @@
     "eject": "react-scripts eject",
     "serve": "serve build -s -L -p $PORT"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
